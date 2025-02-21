@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import io from 'socket.io-client';
 
-export const serverRoute = 'http://localhost:8080'
-// export const serverRoute = 'https://api.sds-pnu.net/';
+// export const serverRoute = 'http://localhost:8080'
+export const serverRoute = "https://server-xny1.onrender.com";
 
 export const socket = io(serverRoute);
 const Main = () => {
